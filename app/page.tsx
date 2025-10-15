@@ -1114,7 +1114,7 @@ export default function Home() {
                 Servidor Idhas - Priston Tale Brasil
               </p>
               <p className="text-gray-500 text-sm">
-                © 2024 Clan Azkaban. Todos os direitos reservados.
+                © {new Date().getFullYear()} Clan Azkaban. Todos os direitos reservados.
               </p>
             </div>
           </div>
