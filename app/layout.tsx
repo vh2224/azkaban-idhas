@@ -8,9 +8,9 @@ import "./globals.css"
 import "../styles/carousel.css"
 
 export const metadata: Metadata = {
-  title: "Azkaban Idhas - Clan Oficial",
-  description: "Clan Azkaban - Servidor Idhas, Priston Tale Brasil. Lealdade não se compra!",
-  generator: "azkaban-clan",
+  title: "Azkaban Idhas - Clã Oficial",
+  description: "Clã Azkaban - Servidor Idhas, Priston Tale Brasil. Lealdade não se compra!",
+  generator: "azkaban-Clã",
   icons: {
     icon: "/images/azkaban-logo.png",
     shortcut: "/images/azkaban-logo.png",
@@ -27,10 +27,10 @@ export default function RootLayout({
     <html lang="pt-BR">
       <head>
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="Azkaban, Clan, Priston Tale, Idhas, PvP, MMORPG, Brasil" />
-        <meta name="author" content="Clan Azkaban" />
-        <meta property="og:title" content="Azkaban Idhas - Clan Oficial" />
-        <meta property="og:description" content="Clan Azkaban - Servidor Idhas, Priston Tale Brasil. Lealdade não se compra!" />
+        <meta name="keywords" content="Azkaban, Clã, Priston Tale, Idhas, PvP, MMORPG, Brasil" />
+        <meta name="author" content="Clã Azkaban" />
+        <meta property="og:title" content="Azkaban Idhas - Clã Oficial" />
+        <meta property="og:description" content="Clã Azkaban - Servidor Idhas, Priston Tale Brasil. Lealdade não se compra!" />
         <meta property="og:image" content="/images/azkaban-logo.png" />
         <meta property="og:type" content="website" />
       </head>

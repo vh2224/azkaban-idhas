@@ -581,17 +581,17 @@ export default function Home() {
                     </Select>
                   </div>
 
-                  {/* Amigos no Clan */}
+                  {/* Amigos no Clã */}
                   <div>
                     <Label htmlFor="amigosNoClan" className="text-white font-semibold">
-                      Tem algum amigo no clan? *
+                      Tem algum amigo no Clã? *
                     </Label>
                     <Textarea
                       id="amigosNoClan"
                       value={formData.amigosNoClan}
                       onChange={(e) => handleInputChange("amigosNoClan", e.target.value)}
                       className="bg-gray-800 border-gray-600 text-white focus:border-white min-h-[80px] resize-none"
-                      placeholder="Cite TODOS os amigos que tem no clan ou escreva 'Não tenho'"
+                      placeholder="Cite TODOS os amigos que tem no Clã ou escreva 'Não tenho'"
                       required
                     />
                   </div>
@@ -621,7 +621,7 @@ export default function Home() {
                       value={formData.oQueEsperar}
                       onChange={(e) => handleInputChange("oQueEsperar", e.target.value)}
                       className="bg-gray-800 border-gray-600 text-white focus:border-white min-h-[80px] resize-none"
-                      placeholder="Descreva o que você pode contribuir para o clan"
+                      placeholder="Descreva o que você pode contribuir para o Clã"
                       required
                     />
                   </div>
@@ -939,7 +939,7 @@ export default function Home() {
               SOBRE O <span className="text-white">AZKABAN</span>
             </h2>
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-              Somos mais que um clan, somos uma irmandade forjada nas batalhas
+              Somos mais que um Clã, somos uma irmandade forjada nas batalhas
               mais intensas do Priston Tale. Nascidos da escuridão, unidos pelo
               poder, nossa força vem da lealdade e determinação de cada membro.
             </p>
@@ -1114,7 +1114,7 @@ export default function Home() {
                 Servidor Idhas - Priston Tale Brasil
               </p>
               <p className="text-gray-500 text-sm">
-                © {new Date().getFullYear()} Clan Azkaban. Todos os direitos reservados.
+                © {new Date().getFullYear()} Clã Azkaban. Todos os direitos reservados.
               </p>
             </div>
           </div>

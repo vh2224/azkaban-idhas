@@ -1,7 +1,7 @@
 {
   "name": "azkaban-idhas",
   "version": "1.0.0",
-  "description": "Site oficial do Clan Azkaban - Servidor Idhas, Priston Tale Brasil",
+  "description": "Site oficial do Clã Azkaban - Servidor Idhas, Priston Tale Brasil",
   "private": true,
   "scripts": {
     "build": "next build",
