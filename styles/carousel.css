@@ -1,0 +1,47 @@
+/* Estilos customizados para o carousel de liderança */
+.leadership-carousel .slick-dots {
+  bottom: -50px;
+}
+
+.leadership-carousel .slick-dots li button:before {
+  color: #ffffff;
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.leadership-carousel .slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: #ffffff;
+}
+
+.leadership-carousel .slick-prev,
+.leadership-carousel .slick-next {
+  display: none !important;
+}
+
+.leadership-carousel .slick-slide {
+  padding: 0 10px;
+}
+
+.leadership-carousel .slick-track {
+  display: flex;
+  align-items: stretch;
+}
+
+.leadership-carousel .slick-slide > div {
+  height: 100%;
+}
+
+/* Hover effects */
+.leadership-carousel .slick-slide .bg-gray-800\/50:hover {
+  background-color: rgba(55, 65, 81, 0.7);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .leadership-carousel .slick-dots {
+    bottom: -30px;
+  }
+}

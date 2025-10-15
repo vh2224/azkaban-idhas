@@ -1,0 +1,582 @@
+{
+  "Adaga Verthex": {
+    "category": "armas",
+    "type": "Adagas",
+    "base": {
+      "min": 206,
+      "max": 216,
+      "rate": 301,
+      "crit": 21
+    },
+    "level": 172
+  },
+  "Adaga Abissal": {
+    "category": "armas",
+    "type": "Adagas",
+    "base": {
+      "min": 172,
+      "max": 182,
+      "rate": 289,
+      "crit": 21
+    },
+    "level": 165
+  },
+  "Adaga Verus": {
+    "category": "armas",
+    "type": "Adagas",
+    "base": {
+      "min": 148,
+      "max": 158,
+      "rate": 277,
+      "crit": 20
+    },
+    "level": 140
+  },
+  "Adaga Flamejante": {
+    "category": "armas",
+    "type": "Adagas",
+    "base": {
+      "min": 136,
+      "max": 146,
+      "rate": 265,
+      "crit": 20
+    },
+    "level": 130
+  },
+  "Adaga Mortal": {
+    "category": "armas",
+    "type": "Adagas",
+    "base": {
+      "min": 124,
+      "max": 134,
+      "rate": 253,
+      "crit": 20
+    },
+    "level": 123
+  },
+  "Adaga Mitológica": {
+    "category": "armas",
+    "type": "Adagas",
+    "base": {
+      "min": 114,
+      "max": 123,
+      "rate": 240,
+      "crit": 20
+    },
+    "level": 118
+  },
+  "Adaga Negra": {
+    "category": "armas",
+    "type": "Adagas",
+    "base": {
+      "min": 106,
+      "max": 114,
+      "rate": 232,
+      "crit": 20
+    },
+    "level": 115
+  },
+  "Adaga Cristal": {
+    "category": "armas",
+    "type": "Adagas",
+    "base": {
+      "min": 97,
+      "max": 108,
+      "rate": 224,
+      "crit": 19
+    },
+    "level": 108
+  },
+  "Adaga Rubra": {
+    "category": "armas",
+    "type": "Adagas",
+    "base": {
+      "min": 88,
+      "max": 102,
+      "rate": 216,
+      "crit": 19
+    },
+    "level": 105
+  },
+  "Adaga Diabólica": {
+    "category": "armas",
+    "type": "Adagas",
+    "base": {
+      "min": 82,
+      "max": 95,
+      "rate": 209,
+      "crit": 18
+    },
+    "level": 102
+  },
+  "Adaga Dragão": {
+    "category": "armas",
+    "type": "Adagas",
+    "base": {
+      "min": 73,
+      "max": 90,
+      "rate": 199,
+      "crit": 18
+    },
+    "level": 100
+  },
+  "Arco Verthex": {
+    "category": "armas",
+    "type": "Arcos",
+    "base": {
+      "min": 203,
+      "max": 226,
+      "rate": 273,
+      "crit": 21
+    },
+    "level": 172
+  },
+  "Arco Abissal": {
+    "category": "armas",
+    "type": "Arcos",
+    "base": {
+      "min": 168,
+      "max": 190,
+      "rate": 258,
+      "crit": 21
+    },
+    "level": 165
+  },
+  "Arco Verus": {
+    "category": "armas",
+    "type": "Arcos",
+    "base": {
+      "min": 140,
+      "max": 162,
+      "rate": 244,
+      "crit": 20
+    },
+    "level": 140
+  },
+  "Arco Flamejante": {
+    "category": "armas",
+    "type": "Arcos",
+    "base": {
+      "min": 125,
+      "max": 147,
+      "rate": 229,
+      "crit": 20
+    },
+    "level": 130
+  },
+  "Arco Mortal": {
+    "category": "armas",
+    "type": "Arcos",
+    "base": {
+      "min": 110,
+      "max": 132,
+      "rate": 214,
+      "crit": 20
+    },
+    "level": 123
+  },
+  "Arco Mitológico": {
+    "category": "armas",
+    "type": "Arcos",
+    "base": {
+      "min": 100,
+      "max": 122,
+      "rate": 202,
+      "crit": 20
+    },
+    "level": 118
+  },
+  "Arco Negro": {
+    "category": "armas",
+    "type": "Arcos",
+    "base": {
+      "min": 90,
+      "max": 112,
+      "rate": 192,
+      "crit": 20
+    },
+    "level": 115
+  },
+  "Arco Cronus": {
+    "category": "armas",
+    "type": "Arcos",
+    "base": {
+      "min": 80,
+      "max": 102,
+      "rate": 178,
+      "crit": 19
+    },
+    "level": 108
+  },
+  "Arco Salamandra": {
+    "category": "armas",
+    "type": "Arcos",
+    "base": {
+      "min": 70,
+      "max": 92,
+      "rate": 166,
+      "crit": 19
+    },
+    "level": 105
+  },
+  "Arco Imortal": {
+    "category": "armas",
+    "type": "Arcos",
+    "base": {
+      "min": 60,
+      "max": 83,
+      "rate": 158,
+      "crit": 18
+    },
+    "level": 102
+  },
+  "Arco Wyvern": {
+    "category": "armas",
+    "type": "Arcos",
+    "base": {
+      "min": 54,
+      "max": 77,
+      "rate": 138,
+      "crit": 18
+    },
+    "level": 100
+  },
+  "Cajado Verthex": {
+    "category": "armas",
+    "type": "Cajados",
+    "base": {
+      "min": 196,
+      "max": 216,
+      "rate": 273,
+      "crit": 14
+    },
+    "level": 172
+  },
+  "Cajado Abissal": {
+    "category": "armas",
+    "type": "Cajados",
+    "base": {
+      "min": 163,
+      "max": 182,
+      "rate": 263,
+      "crit": 13
+    },
+    "level": 165
+  },
+  "Cajado Verus": {
+    "category": "armas",
+    "type": "Cajados",
+    "base": {
+      "min": 139,
+      "max": 158,
+      "rate": 253,
+      "crit": 12
+    },
+    "level": 140
+  },
+  "Cajado Flamejante": {
+    "category": "armas",
+    "type": "Cajados",
+    "base": {
+      "min": 127,
+      "max": 146,
+      "rate": 243,
+      "crit": 12
+    },
+    "level": 130
+  },
+  "Cajado Mortal": {
+    "category": "armas",
+    "type": "Cajados",
+    "base": {
+      "min": 115,
+      "max": 134,
+      "rate": 233,
+      "crit": 12
+    },
+    "level": 123
+  },
+  "Cajado Mitológico": {
+    "category": "armas",
+    "type": "Cajados",
+    "base": {
+      "min": 105,
+      "max": 123,
+      "rate": 223,
+      "crit": 12
+    },
+    "level": 118
+  },
+  "Cajado Negro": {
+    "category": "armas",
+    "type": "Cajados",
+    "base": {
+      "min": 88,
+      "max": 105,
+      "rate": 213,
+      "crit": 12
+    },
+    "level": 115
+  },
+  "Cajado Freyja": {
+    "category": "armas",
+    "type": "Cajados",
+    "base": {
+      "min": 77,
+      "max": 94,
+      "rate": 203,
+      "crit": 11
+    },
+    "level": 108
+  },
+  "Varinha Freyja": {
+    "category": "armas",
+    "type": "Cajados",
+    "base": {
+      "min": 64,
+      "max": 80,
+      "rate": 203,
+      "crit": 10
+    },
+    "level": 108
+  },
+  "Cajado Astral": {
+    "category": "armas",
+    "type": "Cajados",
+    "base": {
+      "min": 63,
+      "max": 79,
+      "rate": 193,
+      "crit": 10
+    },
+    "level": 105
+  },
+  "Cajado Celestial": {
+    "category": "armas",
+    "type": "Cajados",
+    "base": {
+      "min": 51,
+      "max": 58,
+      "rate": 183,
+      "crit": 9
+    },
+    "level": 102
+  },
+  "Varinha Oráculo": {
+    "category": "armas",
+    "type": "Cajados",
+    "base": {
+      "min": 40,
+      "max": 45,
+      "rate": 174,
+      "crit": 9
+    },
+    "level": 100
+  },
+  "Espada Verthex": {
+    "category": "armas",
+    "type": "Espadas",
+    "base": {
+      "min": 198,
+      "max": 220,
+      "rate": 295,
+      "crit": 24
+    },
+    "level": 172
+  },
+  "Espada Abissal": {
+    "category": "armas",
+    "type": "Espadas",
+    "base": {
+      "min": 165,
+      "max": 186,
+      "rate": 283,
+      "crit": 24
+    },
+    "level": 165
+  },
+  "Espada Verus": {
+    "category": "armas",
+    "type": "Espadas",
+    "base": {
+      "min": 141,
+      "max": 162,
+      "rate": 271,
+      "crit": 23
+    },
+    "level": 140
+  },
+  "Espada Flamejante": {
+    "category": "armas",
+    "type": "Espadas",
+    "base": {
+      "min": 129,
+      "max": 150,
+      "rate": 259,
+      "crit": 23
+    },
+    "level": 130
+  },
+  "Espada Mortal": {
+    "category": "armas",
+    "type": "Espadas",
+    "base": {
+      "min": 117,
+      "max": 138,
+      "rate": 247,
+      "crit": 23
+    },
+    "level": 123
+  },
+  "Espada Mitológica": {
+    "category": "armas",
+    "type": "Espadas",
+    "base": {
+      "min": 105,
+      "max": 126,
+      "rate": 235,
+      "crit": 23
+    },
+    "level": 118
+  },
+  "Espada Megra": {
+    "category": "armas",
+    "type": "Espadas",
+    "base": {
+      "min": 97,
+      "max": 118,
+      "rate": 223,
+      "crit": 23
+    },
+    "level": 115
+  },
+  "Espada Lendária": {
+    "category": "armas",
+    "type": "Espadas",
+    "base": {
+      "min": 75,
+      "max": 99,
+      "rate": 211,
+      "crit": 20
+    },
+    "level": 108
+  },
+  "Espada Tirbing": {
+    "category": "armas",
+    "type": "Espadas",
+    "base": {
+      "min": 85,
+      "max": 108,
+      "rate": 211,
+      "crit": 22
+    },
+    "level": 108
+  },
+  "Espada Mirage": {
+    "category": "armas",
+    "type": "Espadas",
+    "base": {
+      "min": 73,
+      "max": 98,
+      "rate": 199,
+      "crit": 22
+    },
+    "level": 105
+  },
+  "Espada Extrema": {
+    "category": "armas",
+    "type": "Espadas",
+    "base": {
+      "min": 61,
+      "max": 85,
+      "rate": 192,
+      "crit": 21
+    },
+    "level": 102
+  },
+  "Espada da Justiça": {
+    "category": "armas",
+    "type": "Espadas",
+    "base": {
+      "min": 54,
+      "max": 74,
+      "rate": 164,
+      "crit": 20
+    },
+    "level": 100
+  },
+  "Armadura Verthex": {
+    "category": "defesas",
+    "type": "armadura",
+    "base": {
+      "defense": 2250,
+      "absorption": 55.6
+    },
+    "level": 172
+  },
+  "Armadura Abissal": {
+    "category": "defesas",
+    "type": "armadura",
+    "base": {
+      "defense": 1850,
+      "absorption": 45.6
+    },
+    "level": 165
+  },
+  "Armadura Verus": {
+    "category": "defesas",
+    "type": "armadura",
+    "base": {
+      "defense": 1460,
+      "absorption": 42.9
+    },
+    "level": 140
+  },
+  "Escudo Verthex": {
+    "category": "defesas",
+    "type": "escudo",
+    "base": {
+      "defense": 326,
+      "absorption": 20.5,
+      "block": 27
+    },
+    "level": 172
+  },
+  "Escudo Abissal": {
+    "category": "defesas",
+    "type": "escudo",
+    "base": {
+      "defense": 314,
+      "absorption": 19.5,
+      "block": 26
+    },
+    "level": 165
+  },
+  "Bracelete Cronus": {
+    "category": "defesas",
+    "type": "bracelete",
+    "base": {
+      "defense": 160,
+      "attack": 160
+    },
+    "level": 108
+  },
+  "Luvas Verthex": {
+    "category": "defesas",
+    "type": "luvas",
+    "base": {
+      "defense": 542,
+      "absorption": 27.4
+    },
+    "level": 172
+  },
+  "Botas Verthex": {
+    "category": "defesas",
+    "type": "botas",
+    "base": {
+      "defense": 543,
+      "absorption": 29.9
+    },
+    "level": 172
+  }
+}
