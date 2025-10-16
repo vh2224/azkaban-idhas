@@ -900,7 +900,15 @@ export default function Home() {
               <CardContent className="p-6">
                 <Crown className="w-12 h-12 text-white mx-auto mb-4" />
                 <h3 className="text-3xl font-bold text-white mb-2">#1</h3>
-                <p className="text-gray-300">Top do Servidor</p>
+                <p className="text-gray-300">Primeira Tag a dominar o servidor</p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-gray-800/50 border-gray-700 text-center">
+              <CardContent className="p-6">
+                <Shield className="w-12 h-12 text-white mx-auto mb-4" />
+                <h3 className="text-3xl font-bold text-white mb-2">#1</h3>
+                <p className="text-gray-300">Primeira Tag a conquistar um BC com competição</p>
               </CardContent>
             </Card>
 
@@ -908,23 +916,15 @@ export default function Home() {
               <CardContent className="p-6">
                 <Users className="w-12 h-12 text-white mx-auto mb-4" />
                 <h3 className="text-3xl font-bold text-white mb-2">200+</h3>
-                <p className="text-gray-300">Membros Ativos</p>
+                <p className="text-gray-300">Membros ativos no Clã</p>
               </CardContent>
             </Card>
 
             <Card className="bg-gray-800/50 border-gray-700 text-center">
               <CardContent className="p-6">
                 <Sword className="w-12 h-12 text-white mx-auto mb-4" />
-                <h3 className="text-3xl font-bold text-white mb-2">100+</h3>
-                <p className="text-gray-300">Vitórias em PvP</p>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-gray-800/50 border-gray-700 text-center">
-              <CardContent className="p-6">
-                <Shield className="w-12 h-12 text-white mx-auto mb-4" />
-                <h3 className="text-3xl font-bold text-white mb-2">200+</h3>
-                <p className="text-gray-300">Bosses Conquistados</p>
+                <h3 className="text-3xl font-bold text-white mb-2">#1</h3>
+                <p className="text-gray-300">Clã com o maior número de vitórias no SOD</p>
               </CardContent>
             </Card>
           </div>
