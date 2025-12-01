@@ -76,25 +76,16 @@ export default function Home() {
       rank: "Líder",
       description: "Organização do clã, ataques BC e resolução de problemas",
       avatar: "/images/leader1.png",
-      type: "leader"
+      type: "leader",
     },
     {
       name: "Wallace",
-      gameNick: "SaintSunshine", 
+      gameNick: "SaintSunshine",
       role: "Líder",
       rank: "Líder",
       description: "Organização TS, coordenação BC e resolução de problemas",
       avatar: "/images/leader2.png",
-      type: "leader"
-    },
-    {
-      name: "Barradas",
-      gameNick: "Blogueira",
-      role: "Líder",
-      rank: "Líder",
-      description: "Representação Discord, organização geral e arquivos",
-      avatar: "/images/leader3.png",
-      type: "leader"
+      type: "leader",
     },
     // Moderadores
     {
@@ -104,34 +95,16 @@ export default function Home() {
       rank: "Moderador",
       description: "Organização PvPs e suporte BC",
       avatar: "/images/mod1.png",
-      type: "moderator"
+      type: "moderator",
     },
     {
       name: "Léo",
       gameNick: "Jasmine/Herdeira",
       role: "Moderador",
-      rank: "Moderador", 
+      rank: "Moderador",
       description: "Conselheiro e estrategista BC",
       avatar: "/images/mod2.png",
-      type: "moderator"
-    },
-    {
-      name: "Angélica",
-      gameNick: "CaatCraazy",
-      role: "Moderadora",
-      rank: "Moderadora",
-      description: "Recrutamento e representação Discord",
-      avatar: "/images/mod3.png",
-      type: "moderator"
-    },
-    {
-      name: "Saulo",
-      gameNick: "DuReX",
-      role: "Moderador",
-      rank: "Moderador",
-      description: "Prints Bosses Alfa e sorteios de itens",
-      avatar: "/images/mod4.png",
-      type: "moderator"
+      type: "moderator",
     },
     {
       name: "Bruno",
@@ -140,7 +113,7 @@ export default function Home() {
       rank: "Moderador",
       description: "Prints Bosses Alfa e sorteios de itens",
       avatar: "/images/mod5.png",
-      type: "moderator"
+      type: "moderator",
     },
     {
       name: "Matheus",
@@ -149,7 +122,7 @@ export default function Home() {
       rank: "Moderador",
       description: "Recrutamento e confirmação presença BC",
       avatar: "/images/mod6.png",
-      type: "moderator"
+      type: "moderator",
     },
     {
       name: "Jean Carlos",
@@ -158,17 +131,8 @@ export default function Home() {
       rank: "Moderador",
       description: "Confirmação presença BC e organização PvPs",
       avatar: "/images/mod7.png",
-      type: "moderator"
+      type: "moderator",
     },
-    {
-      name: "Geovane",
-      gameNick: "Lizbeth",
-      role: "Moderador",
-      rank: "Moderador",
-      description: "Suporte BC e organização eventos PvP",
-      avatar: "/images/mod8.png",
-      type: "moderator"
-    }
   ];
 
   const [formData, setFormData] = useState({
@@ -242,21 +206,51 @@ export default function Home() {
 
       // Sempre marca como sucesso para mostrar mensagem de confirmação
       setSubmitSuccess(true);
-      setFormData({ 
-        name: "", email: "", whatsapp: "", personagem: "", classe: "", nivel: "",
-        charOrigem: "", outrosPersonagens: "", temShare: "", jaHouveAcusacao: "",
-        experienciaBC: "", experienciaSOD: "", gostaPvP: "", participarPvP: "",
-        disponibilidadeBC: "", amigosNoClan: "", clansAnteriores: "", oQueEsperar: "", porQueAzkaban: ""
+      setFormData({
+        name: "",
+        email: "",
+        whatsapp: "",
+        personagem: "",
+        classe: "",
+        nivel: "",
+        charOrigem: "",
+        outrosPersonagens: "",
+        temShare: "",
+        jaHouveAcusacao: "",
+        experienciaBC: "",
+        experienciaSOD: "",
+        gostaPvP: "",
+        participarPvP: "",
+        disponibilidadeBC: "",
+        amigosNoClan: "",
+        clansAnteriores: "",
+        oQueEsperar: "",
+        porQueAzkaban: "",
       });
     } catch (error) {
       console.error("Erro ao enviar formulário:", error);
       // Mesmo com erro, mostra mensagem de sucesso para o usuário
       setSubmitSuccess(true);
-      setFormData({ 
-        name: "", email: "", whatsapp: "", personagem: "", classe: "", nivel: "",
-        charOrigem: "", outrosPersonagens: "", temShare: "", jaHouveAcusacao: "",
-        experienciaBC: "", experienciaSOD: "", gostaPvP: "", participarPvP: "",
-        disponibilidadeBC: "", amigosNoClan: "", clansAnteriores: "", oQueEsperar: "", porQueAzkaban: ""
+      setFormData({
+        name: "",
+        email: "",
+        whatsapp: "",
+        personagem: "",
+        classe: "",
+        nivel: "",
+        charOrigem: "",
+        outrosPersonagens: "",
+        temShare: "",
+        jaHouveAcusacao: "",
+        experienciaBC: "",
+        experienciaSOD: "",
+        gostaPvP: "",
+        participarPvP: "",
+        disponibilidadeBC: "",
+        amigosNoClan: "",
+        clansAnteriores: "",
+        oQueEsperar: "",
+        porQueAzkaban: "",
       });
     } finally {
       setIsSubmitting(false);
@@ -266,11 +260,26 @@ export default function Home() {
   const closeRecruitmentModal = () => {
     setShowRecruitmentModal(false);
     setSubmitSuccess(false);
-    setFormData({ 
-      name: "", email: "", whatsapp: "", personagem: "", classe: "", nivel: "",
-      charOrigem: "", outrosPersonagens: "", temShare: "", jaHouveAcusacao: "",
-      experienciaBC: "", experienciaSOD: "", gostaPvP: "", participarPvP: "",
-      disponibilidadeBC: "", amigosNoClan: "", clansAnteriores: "", oQueEsperar: "", porQueAzkaban: ""
+    setFormData({
+      name: "",
+      email: "",
+      whatsapp: "",
+      personagem: "",
+      classe: "",
+      nivel: "",
+      charOrigem: "",
+      outrosPersonagens: "",
+      temShare: "",
+      jaHouveAcusacao: "",
+      experienciaBC: "",
+      experienciaSOD: "",
+      gostaPvP: "",
+      participarPvP: "",
+      disponibilidadeBC: "",
+      amigosNoClan: "",
+      clansAnteriores: "",
+      oQueEsperar: "",
+      porQueAzkaban: "",
     });
   };
 
@@ -331,7 +340,10 @@ export default function Home() {
               </div>
 
               {!submitSuccess ? (
-                <form onSubmit={handleRecruitmentSubmit} className="space-y-4 max-h-96 overflow-y-auto pr-2">
+                <form
+                  onSubmit={handleRecruitmentSubmit}
+                  className="space-y-4 max-h-96 overflow-y-auto pr-2"
+                >
                   {/* Nome Completo */}
                   <div>
                     <Label htmlFor="name" className="text-white font-semibold">
@@ -341,7 +353,9 @@ export default function Home() {
                       id="name"
                       type="text"
                       value={formData.name}
-                      onChange={(e) => handleInputChange("name", e.target.value)}
+                      onChange={(e) =>
+                        handleInputChange("name", e.target.value)
+                      }
                       className="bg-gray-800 border-gray-600 text-white focus:border-white"
                       placeholder="Seu nome completo"
                       required
@@ -357,7 +371,9 @@ export default function Home() {
                       id="email"
                       type="email"
                       value={formData.email}
-                      onChange={(e) => handleInputChange("email", e.target.value)}
+                      onChange={(e) =>
+                        handleInputChange("email", e.target.value)
+                      }
                       className="bg-gray-800 border-gray-600 text-white focus:border-white"
                       placeholder="seu.email@exemplo.com"
                       required
@@ -366,14 +382,19 @@ export default function Home() {
 
                   {/* WhatsApp */}
                   <div>
-                    <Label htmlFor="whatsapp" className="text-white font-semibold">
+                    <Label
+                      htmlFor="whatsapp"
+                      className="text-white font-semibold"
+                    >
                       WhatsApp *
                     </Label>
                     <Input
                       id="whatsapp"
                       type="tel"
                       value={formData.whatsapp}
-                      onChange={(e) => handleInputChange("whatsapp", e.target.value)}
+                      onChange={(e) =>
+                        handleInputChange("whatsapp", e.target.value)
+                      }
                       className="bg-gray-800 border-gray-600 text-white focus:border-white"
                       placeholder="(11) 99999-9999"
                       required
@@ -382,14 +403,19 @@ export default function Home() {
 
                   {/* Nick do Personagem */}
                   <div>
-                    <Label htmlFor="personagem" className="text-white font-semibold">
+                    <Label
+                      htmlFor="personagem"
+                      className="text-white font-semibold"
+                    >
                       Nick do Personagem *
                     </Label>
                     <Input
                       id="personagem"
                       type="text"
                       value={formData.personagem}
-                      onChange={(e) => handleInputChange("personagem", e.target.value)}
+                      onChange={(e) =>
+                        handleInputChange("personagem", e.target.value)
+                      }
                       className="bg-gray-800 border-gray-600 text-white focus:border-white"
                       placeholder="Nome do seu personagem"
                       required
@@ -398,25 +424,88 @@ export default function Home() {
 
                   {/* Classe do Personagem */}
                   <div>
-                    <Label htmlFor="classe" className="text-white font-semibold">
+                    <Label
+                      htmlFor="classe"
+                      className="text-white font-semibold"
+                    >
                       Classe do Personagem *
                     </Label>
-                    <Select value={formData.classe} onValueChange={(value) => handleInputChange("classe", value)}>
+                    <Select
+                      value={formData.classe}
+                      onValueChange={(value) =>
+                        handleInputChange("classe", value)
+                      }
+                    >
                       <SelectTrigger className="bg-gray-800 border-gray-600 text-white focus:border-white">
                         <SelectValue placeholder="Selecione sua classe" />
                       </SelectTrigger>
                       <SelectContent className="bg-gray-800 border-gray-600">
-                        <SelectItem value="Pike" className="text-white hover:bg-gray-700">Pike</SelectItem>
-                        <SelectItem value="Mecânico" className="text-white hover:bg-gray-700">Mecânico</SelectItem>
-                        <SelectItem value="Lutador" className="text-white hover:bg-gray-700">Lutador</SelectItem>
-                        <SelectItem value="Cavaleiro" className="text-white hover:bg-gray-700">Cavaleiro</SelectItem>
-                        <SelectItem value="Mago" className="text-white hover:bg-gray-700">Mago</SelectItem>
-                        <SelectItem value="Sacerdotisa" className="text-white hover:bg-gray-700">Sacerdotisa</SelectItem>
-                        <SelectItem value="Arqueira" className="text-white hover:bg-gray-700">Arqueira</SelectItem>
-                        <SelectItem value="Atalanta" className="text-white hover:bg-gray-700">Atalanta</SelectItem>
-                        <SelectItem value="Xamã" className="text-white hover:bg-gray-700">Xamã</SelectItem>
-                        <SelectItem value="Assasina" className="text-white hover:bg-gray-700">Assasina</SelectItem>
-                        <SelectItem value="Guerreira" className="text-white hover:bg-gray-700">Guerreira</SelectItem>
+                        <SelectItem
+                          value="Pike"
+                          className="text-white hover:bg-gray-700"
+                        >
+                          Pike
+                        </SelectItem>
+                        <SelectItem
+                          value="Mecânico"
+                          className="text-white hover:bg-gray-700"
+                        >
+                          Mecânico
+                        </SelectItem>
+                        <SelectItem
+                          value="Lutador"
+                          className="text-white hover:bg-gray-700"
+                        >
+                          Lutador
+                        </SelectItem>
+                        <SelectItem
+                          value="Cavaleiro"
+                          className="text-white hover:bg-gray-700"
+                        >
+                          Cavaleiro
+                        </SelectItem>
+                        <SelectItem
+                          value="Mago"
+                          className="text-white hover:bg-gray-700"
+                        >
+                          Mago
+                        </SelectItem>
+                        <SelectItem
+                          value="Sacerdotisa"
+                          className="text-white hover:bg-gray-700"
+                        >
+                          Sacerdotisa
+                        </SelectItem>
+                        <SelectItem
+                          value="Arqueira"
+                          className="text-white hover:bg-gray-700"
+                        >
+                          Arqueira
+                        </SelectItem>
+                        <SelectItem
+                          value="Atalanta"
+                          className="text-white hover:bg-gray-700"
+                        >
+                          Atalanta
+                        </SelectItem>
+                        <SelectItem
+                          value="Xamã"
+                          className="text-white hover:bg-gray-700"
+                        >
+                          Xamã
+                        </SelectItem>
+                        <SelectItem
+                          value="Assasina"
+                          className="text-white hover:bg-gray-700"
+                        >
+                          Assasina
+                        </SelectItem>
+                        <SelectItem
+                          value="Guerreira"
+                          className="text-white hover:bg-gray-700"
+                        >
+                          Guerreira
+                        </SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
@@ -430,7 +519,9 @@ export default function Home() {
                       id="nivel"
                       type="number"
                       value={formData.nivel}
-                      onChange={(e) => handleInputChange("nivel", e.target.value)}
+                      onChange={(e) =>
+                        handleInputChange("nivel", e.target.value)
+                      }
                       className="bg-gray-800 border-gray-600 text-white focus:border-white"
                       placeholder="Ex: 85"
                       min="80"
@@ -441,30 +532,53 @@ export default function Home() {
 
                   {/* Char - de compra ou criado? */}
                   <div>
-                    <Label htmlFor="charOrigem" className="text-white font-semibold">
+                    <Label
+                      htmlFor="charOrigem"
+                      className="text-white font-semibold"
+                    >
                       Char - de compra ou criado? *
                     </Label>
-                    <Select value={formData.charOrigem} onValueChange={(value) => handleInputChange("charOrigem", value)}>
+                    <Select
+                      value={formData.charOrigem}
+                      onValueChange={(value) =>
+                        handleInputChange("charOrigem", value)
+                      }
+                    >
                       <SelectTrigger className="bg-gray-800 border-gray-600 text-white focus:border-white">
                         <SelectValue placeholder="Selecione uma opção" />
                       </SelectTrigger>
                       <SelectContent className="bg-gray-800 border-gray-600">
-                        <SelectItem value="Criado" className="text-white hover:bg-gray-700">Criado</SelectItem>
-                        <SelectItem value="Compra" className="text-white hover:bg-gray-700">Compra</SelectItem>
+                        <SelectItem
+                          value="Criado"
+                          className="text-white hover:bg-gray-700"
+                        >
+                          Criado
+                        </SelectItem>
+                        <SelectItem
+                          value="Compra"
+                          className="text-white hover:bg-gray-700"
+                        >
+                          Compra
+                        </SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
 
                   {/* Outros Personagens */}
                   <div>
-                    <Label htmlFor="outrosPersonagens" className="text-white font-semibold">
+                    <Label
+                      htmlFor="outrosPersonagens"
+                      className="text-white font-semibold"
+                    >
                       Tem outros personagens? (Cite) *
                     </Label>
                     <Input
                       id="outrosPersonagens"
                       type="text"
                       value={formData.outrosPersonagens}
-                      onChange={(e) => handleInputChange("outrosPersonagens", e.target.value)}
+                      onChange={(e) =>
+                        handleInputChange("outrosPersonagens", e.target.value)
+                      }
                       className="bg-gray-800 border-gray-600 text-white focus:border-white"
                       placeholder="Liste seus outros personagens ou escreva 'Não'"
                       required
@@ -473,29 +587,52 @@ export default function Home() {
 
                   {/* Tem Share? */}
                   <div>
-                    <Label htmlFor="temShare" className="text-white font-semibold">
+                    <Label
+                      htmlFor="temShare"
+                      className="text-white font-semibold"
+                    >
                       Tem share? *
                     </Label>
-                    <Select value={formData.temShare} onValueChange={(value) => handleInputChange("temShare", value)}>
+                    <Select
+                      value={formData.temShare}
+                      onValueChange={(value) =>
+                        handleInputChange("temShare", value)
+                      }
+                    >
                       <SelectTrigger className="bg-gray-800 border-gray-600 text-white focus:border-white">
                         <SelectValue placeholder="Selecione uma opção" />
                       </SelectTrigger>
                       <SelectContent className="bg-gray-800 border-gray-600">
-                        <SelectItem value="Não" className="text-white hover:bg-gray-700">Não</SelectItem>
-                        <SelectItem value="Sim" className="text-white hover:bg-gray-700">Sim</SelectItem>
+                        <SelectItem
+                          value="Não"
+                          className="text-white hover:bg-gray-700"
+                        >
+                          Não
+                        </SelectItem>
+                        <SelectItem
+                          value="Sim"
+                          className="text-white hover:bg-gray-700"
+                        >
+                          Sim
+                        </SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
 
                   {/* Já houve alguma acusação? */}
                   <div>
-                    <Label htmlFor="jaHouveAcusacao" className="text-white font-semibold">
+                    <Label
+                      htmlFor="jaHouveAcusacao"
+                      className="text-white font-semibold"
+                    >
                       Já houve alguma acusação ingame? *
                     </Label>
                     <Textarea
                       id="jaHouveAcusacao"
                       value={formData.jaHouveAcusacao}
-                      onChange={(e) => handleInputChange("jaHouveAcusacao", e.target.value)}
+                      onChange={(e) =>
+                        handleInputChange("jaHouveAcusacao", e.target.value)
+                      }
                       className="bg-gray-800 border-gray-600 text-white focus:border-white min-h-[80px] resize-none"
                       placeholder="Descreva se já houve alguma acusação contra você no jogo"
                       required
@@ -504,13 +641,18 @@ export default function Home() {
 
                   {/* Experiência Bless Castle */}
                   <div>
-                    <Label htmlFor="experienciaBC" className="text-white font-semibold">
+                    <Label
+                      htmlFor="experienciaBC"
+                      className="text-white font-semibold"
+                    >
                       Tem experiência com Bless Castle em clã? *
                     </Label>
                     <Textarea
                       id="experienciaBC"
                       value={formData.experienciaBC}
-                      onChange={(e) => handleInputChange("experienciaBC", e.target.value)}
+                      onChange={(e) =>
+                        handleInputChange("experienciaBC", e.target.value)
+                      }
                       className="bg-gray-800 border-gray-600 text-white focus:border-white min-h-[80px] resize-none"
                       placeholder="Descreva sua experiência com Bless Castle"
                       required
@@ -519,13 +661,18 @@ export default function Home() {
 
                   {/* Experiência SOD */}
                   <div>
-                    <Label htmlFor="experienciaSOD" className="text-white font-semibold">
+                    <Label
+                      htmlFor="experienciaSOD"
+                      className="text-white font-semibold"
+                    >
                       Tem experiência com SOD em clã? *
                     </Label>
                     <Textarea
                       id="experienciaSOD"
                       value={formData.experienciaSOD}
-                      onChange={(e) => handleInputChange("experienciaSOD", e.target.value)}
+                      onChange={(e) =>
+                        handleInputChange("experienciaSOD", e.target.value)
+                      }
                       className="bg-gray-800 border-gray-600 text-white focus:border-white min-h-[80px] resize-none"
                       placeholder="Descreva sua experiência com SOD"
                       required
@@ -534,29 +681,52 @@ export default function Home() {
 
                   {/* Gosta de PvP */}
                   <div>
-                    <Label htmlFor="gostaPvP" className="text-white font-semibold">
+                    <Label
+                      htmlFor="gostaPvP"
+                      className="text-white font-semibold"
+                    >
                       Gosta de jogar PvP? *
                     </Label>
-                    <Select value={formData.gostaPvP} onValueChange={(value) => handleInputChange("gostaPvP", value)}>
+                    <Select
+                      value={formData.gostaPvP}
+                      onValueChange={(value) =>
+                        handleInputChange("gostaPvP", value)
+                      }
+                    >
                       <SelectTrigger className="bg-gray-800 border-gray-600 text-white focus:border-white">
                         <SelectValue placeholder="Selecione uma opção" />
                       </SelectTrigger>
                       <SelectContent className="bg-gray-800 border-gray-600">
-                        <SelectItem value="Sim" className="text-white hover:bg-gray-700">Sim</SelectItem>
-                        <SelectItem value="Não" className="text-white hover:bg-gray-700">Não</SelectItem>
+                        <SelectItem
+                          value="Sim"
+                          className="text-white hover:bg-gray-700"
+                        >
+                          Sim
+                        </SelectItem>
+                        <SelectItem
+                          value="Não"
+                          className="text-white hover:bg-gray-700"
+                        >
+                          Não
+                        </SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
 
                   {/* Disponibilidade PvP */}
                   <div>
-                    <Label htmlFor="participarPvP" className="text-white font-semibold">
+                    <Label
+                      htmlFor="participarPvP"
+                      className="text-white font-semibold"
+                    >
                       Qual a disponibilidade para participar de PvP? *
                     </Label>
                     <Textarea
                       id="participarPvP"
                       value={formData.participarPvP}
-                      onChange={(e) => handleInputChange("participarPvP", e.target.value)}
+                      onChange={(e) =>
+                        handleInputChange("participarPvP", e.target.value)
+                      }
                       className="bg-gray-800 border-gray-600 text-white focus:border-white min-h-[80px] resize-none"
                       placeholder="Descreva sua disponibilidade para participar de PvP"
                       required
@@ -565,31 +735,64 @@ export default function Home() {
 
                   {/* Disponibilidade Bless Castle */}
                   <div>
-                    <Label htmlFor="disponibilidadeBC" className="text-white font-semibold">
+                    <Label
+                      htmlFor="disponibilidadeBC"
+                      className="text-white font-semibold"
+                    >
                       Tem disponibilidade para Wars? *
                     </Label>
-                    <Select value={formData.disponibilidadeBC} onValueChange={(value) => handleInputChange("disponibilidadeBC", value)}>
+                    <Select
+                      value={formData.disponibilidadeBC}
+                      onValueChange={(value) =>
+                        handleInputChange("disponibilidadeBC", value)
+                      }
+                    >
                       <SelectTrigger className="bg-gray-800 border-gray-600 text-white focus:border-white">
                         <SelectValue placeholder="Selecione uma opção" />
                       </SelectTrigger>
                       <SelectContent className="bg-gray-800 border-gray-600">
-                        <SelectItem value="Sim" className="text-white hover:bg-gray-700">Sim</SelectItem>
-                        <SelectItem value="Geralmente" className="text-white hover:bg-gray-700">Geralmente</SelectItem>
-                        <SelectItem value="Raramente" className="text-white hover:bg-gray-700">Raramente</SelectItem>
-                        <SelectItem value="Não" className="text-white hover:bg-gray-700">Não</SelectItem>
+                        <SelectItem
+                          value="Sim"
+                          className="text-white hover:bg-gray-700"
+                        >
+                          Sim
+                        </SelectItem>
+                        <SelectItem
+                          value="Geralmente"
+                          className="text-white hover:bg-gray-700"
+                        >
+                          Geralmente
+                        </SelectItem>
+                        <SelectItem
+                          value="Raramente"
+                          className="text-white hover:bg-gray-700"
+                        >
+                          Raramente
+                        </SelectItem>
+                        <SelectItem
+                          value="Não"
+                          className="text-white hover:bg-gray-700"
+                        >
+                          Não
+                        </SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
 
                   {/* Amigos no Clã */}
                   <div>
-                    <Label htmlFor="amigosNoClan" className="text-white font-semibold">
+                    <Label
+                      htmlFor="amigosNoClan"
+                      className="text-white font-semibold"
+                    >
                       Tem algum amigo no Clã? *
                     </Label>
                     <Textarea
                       id="amigosNoClan"
                       value={formData.amigosNoClan}
-                      onChange={(e) => handleInputChange("amigosNoClan", e.target.value)}
+                      onChange={(e) =>
+                        handleInputChange("amigosNoClan", e.target.value)
+                      }
                       className="bg-gray-800 border-gray-600 text-white focus:border-white min-h-[80px] resize-none"
                       placeholder="Cite TODOS os amigos que tem no Clã ou escreva 'Não tenho'"
                       required
@@ -598,13 +801,18 @@ export default function Home() {
 
                   {/* Clans Anteriores */}
                   <div>
-                    <Label htmlFor="clansAnteriores" className="text-white font-semibold">
+                    <Label
+                      htmlFor="clansAnteriores"
+                      className="text-white font-semibold"
+                    >
                       De quais clãs participou e por que saiu? *
                     </Label>
                     <Textarea
                       id="clansAnteriores"
                       value={formData.clansAnteriores}
-                      onChange={(e) => handleInputChange("clansAnteriores", e.target.value)}
+                      onChange={(e) =>
+                        handleInputChange("clansAnteriores", e.target.value)
+                      }
                       className="bg-gray-800 border-gray-600 text-white focus:border-white min-h-[80px] resize-none"
                       placeholder="Liste os clans anteriores e motivos de saída"
                       required
@@ -613,13 +821,18 @@ export default function Home() {
 
                   {/* O que podemos esperar */}
                   <div>
-                    <Label htmlFor="oQueEsperar" className="text-white font-semibold">
+                    <Label
+                      htmlFor="oQueEsperar"
+                      className="text-white font-semibold"
+                    >
                       O que podemos esperar de você? *
                     </Label>
                     <Textarea
                       id="oQueEsperar"
                       value={formData.oQueEsperar}
-                      onChange={(e) => handleInputChange("oQueEsperar", e.target.value)}
+                      onChange={(e) =>
+                        handleInputChange("oQueEsperar", e.target.value)
+                      }
                       className="bg-gray-800 border-gray-600 text-white focus:border-white min-h-[80px] resize-none"
                       placeholder="Descreva o que você pode contribuir para o Clã"
                       required
@@ -628,13 +841,18 @@ export default function Home() {
 
                   {/* Por que Azkaban */}
                   <div>
-                    <Label htmlFor="porQueAzkaban" className="text-white font-semibold">
+                    <Label
+                      htmlFor="porQueAzkaban"
+                      className="text-white font-semibold"
+                    >
                       Por que gostaria de ser Azkaban? *
                     </Label>
                     <Textarea
                       id="porQueAzkaban"
                       value={formData.porQueAzkaban}
-                      onChange={(e) => handleInputChange("porQueAzkaban", e.target.value)}
+                      onChange={(e) =>
+                        handleInputChange("porQueAzkaban", e.target.value)
+                      }
                       className="bg-gray-800 border-gray-600 text-white focus:border-white min-h-[100px] resize-none"
                       placeholder="Não poupe palavras! Conte-nos suas motivações..."
                       required
@@ -900,7 +1118,9 @@ export default function Home() {
               <CardContent className="p-6">
                 <Crown className="w-12 h-12 text-white mx-auto mb-4" />
                 <h3 className="text-3xl font-bold text-white mb-2">#1</h3>
-                <p className="text-gray-300">Primeira Tag a dominar o servidor</p>
+                <p className="text-gray-300">
+                  Primeira Tag a dominar o servidor
+                </p>
               </CardContent>
             </Card>
 
@@ -908,7 +1128,9 @@ export default function Home() {
               <CardContent className="p-6">
                 <Shield className="w-12 h-12 text-white mx-auto mb-4" />
                 <h3 className="text-3xl font-bold text-white mb-2">#1</h3>
-                <p className="text-gray-300">Primeira Tag a conquistar um BC com competição</p>
+                <p className="text-gray-300">
+                  Primeira Tag a conquistar um BC com competição
+                </p>
               </CardContent>
             </Card>
 
@@ -924,7 +1146,9 @@ export default function Home() {
               <CardContent className="p-6">
                 <Sword className="w-12 h-12 text-white mx-auto mb-4" />
                 <h3 className="text-3xl font-bold text-white mb-2">#1</h3>
-                <p className="text-gray-300">Clã com o maior número de vitórias no SOD</p>
+                <p className="text-gray-300">
+                  Clã com o maior número de vitórias no SOD
+                </p>
               </CardContent>
             </Card>
           </div>
@@ -945,25 +1169,19 @@ export default function Home() {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
               <div className="text-center">
-                <h3 className="text-2xl font-bold text-white mb-4">
-                  LEALDADE
-                </h3>
+                <h3 className="text-2xl font-bold text-white mb-4">LEALDADE</h3>
                 <p className="text-gray-300">
                   Unidos como uma família, lutamos juntos até o fim
                 </p>
               </div>
               <div className="text-center">
-                <h3 className="text-2xl font-bold text-white mb-4">
-                  PODER
-                </h3>
+                <h3 className="text-2xl font-bold text-white mb-4">PODER</h3>
                 <p className="text-gray-300">
                   Buscamos sempre a excelência e o domínio no servidor
                 </p>
               </div>
               <div className="text-center">
-                <h3 className="text-2xl font-bold text-white mb-4">
-                  HONRA
-                </h3>
+                <h3 className="text-2xl font-bold text-white mb-4">HONRA</h3>
                 <p className="text-gray-300">
                   Respeitamos nossos aliados e tememos nossos inimigos
                 </p>
@@ -992,12 +1210,24 @@ export default function Home() {
                     REQUISITOS
                   </h3>
                   <ul className="text-left text-gray-300 space-y-3">
-                    <li>• <strong>AzkabaN:</strong> nível 168+</li>
-                    <li>• <strong>AzkabaNz:</strong> níveis 160 a 165+</li>
-                    <li>• <strong>AzkN e AzkabaNII:</strong> níveis 159-</li>
-                    <li>• <strong>Team Speak (TS):</strong> Obrigatório</li>
-                    <li>• <strong>Participação:</strong> Membro ativo</li>
-                    <li>• <strong>Comportamento:</strong> Respeitoso com todos</li>
+                    <li>
+                      • <strong>AzkabaN:</strong> nível 168+
+                    </li>
+                    <li>
+                      • <strong>AzkabaNz:</strong> níveis 160 a 165+
+                    </li>
+                    <li>
+                      • <strong>AzkN e AzkabaNII:</strong> níveis 159-
+                    </li>
+                    <li>
+                      • <strong>Team Speak (TS):</strong> Obrigatório
+                    </li>
+                    <li>
+                      • <strong>Participação:</strong> Membro ativo
+                    </li>
+                    <li>
+                      • <strong>Comportamento:</strong> Respeitoso com todos
+                    </li>
                   </ul>
                 </CardContent>
               </Card>
@@ -1055,15 +1285,15 @@ export default function Home() {
                     settings: {
                       slidesToShow: 2,
                       slidesToScroll: 1,
-                    }
+                    },
                   },
                   {
                     breakpoint: 600,
                     settings: {
                       slidesToShow: 1,
                       slidesToScroll: 1,
-                    }
-                  }
+                    },
+                  },
                 ]}
                 className="leadership-carousel"
               >
@@ -1072,18 +1302,30 @@ export default function Home() {
                     <Card className="bg-gray-800/50 border-gray-700 text-center h-full">
                       <CardContent className="p-6">
                         <div className="w-20 h-20 bg-gradient-to-br from-gray-700 to-gray-900 rounded-full mx-auto mb-4 flex items-center justify-center border-2 border-white/20">
-                          {member.type === 'leader' ? (
+                          {member.type === "leader" ? (
                             <Crown className="w-10 h-10 text-white" />
                           ) : (
                             <Shield className="w-10 h-10 text-white" />
                           )}
                         </div>
-                        <h3 className="text-xl font-bold text-white mb-1">{member.name}</h3>
-                        <p className="text-gray-400 text-sm mb-2">({member.gameNick})</p>
-                        <Badge className={`mb-3 ${member.type === 'leader' ? 'bg-white text-black' : 'bg-gray-600 text-white'}`}>
+                        <h3 className="text-xl font-bold text-white mb-1">
+                          {member.name}
+                        </h3>
+                        <p className="text-gray-400 text-sm mb-2">
+                          ({member.gameNick})
+                        </p>
+                        <Badge
+                          className={`mb-3 ${
+                            member.type === "leader"
+                              ? "bg-white text-black"
+                              : "bg-gray-600 text-white"
+                          }`}
+                        >
                           {member.rank}
                         </Badge>
-                        <p className="text-gray-300 text-sm leading-relaxed">{member.description}</p>
+                        <p className="text-gray-300 text-sm leading-relaxed">
+                          {member.description}
+                        </p>
                       </CardContent>
                     </Card>
                   </div>
@@ -1114,7 +1356,8 @@ export default function Home() {
                 Servidor Idhas - Priston Tale Brasil
               </p>
               <p className="text-gray-500 text-sm">
-                © {new Date().getFullYear()} Clã Azkaban. Todos os direitos reservados.
+                © {new Date().getFullYear()} Clã Azkaban. Todos os direitos
+                reservados.
               </p>
             </div>
           </div>
